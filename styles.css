@@ -161,6 +161,8 @@ section {
     display: flex;
 }
 
+
+
 /* PROFILE */
 
 #profile {
@@ -286,6 +288,8 @@ section {
 
 .about-containers, .about-details-container{
     display: flex;
+    
+    
 }
 
 .about-pic{
@@ -327,6 +331,8 @@ section {
 .university {
     color: rgb(85, 85, 85);
 }
+
+
 
 /* EXPERIENCE SECTION */
 
@@ -394,6 +400,11 @@ article .icon {
     border-color: rgb(163, 163, 163);
 }
 
+.no-project {
+    background-color: white;
+    border-style: none;
+}
+
 /* CONTACT */
 
 #contact {
@@ -440,3 +451,16 @@ footer {
 footer p {
     text-align: center;
 }
+
+/* SLIDESHOW */
+.prev:hover, .next:hover{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.prev, .next{
+    height: 5vh;
+    margin: auto;
+    font-size: 30px;
+}
+

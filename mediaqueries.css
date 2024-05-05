@@ -1,3 +1,10 @@
+@media screen and (max-width: 1600px) {
+    #projects {
+        margin-top: 100px;
+    }
+    
+}
+
 @media screen and (max-width: 1400px) {
     #profile {
         height: 83vh;
@@ -7,10 +14,12 @@
     .about-containers {
         flex-wrap: wrap;
     }
+
+    
 }
 
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1350px) {
     #desktop-nav {
         display: none;
     }
@@ -51,6 +60,8 @@
     .about-containers {
         margin-top: 0;
     }
+
+    
 }
 
 @media screen and (max-width: 600px){
